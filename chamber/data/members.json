@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Tech Solutions",
+    "address": "15 Main Street",
+    "phone": "(555) 123-4567",
+    "website": "https://techsolutions.com",
+    "membership": "Gold",
+    "image": "images/techsolutions.webp"
+  },
+  {
+    "name": "Green Market",
+    "address": "22 Market Road",
+    "phone": "(555) 987-6543",
+    "website": "https://greenmarket.com",
+    "membership": "Silver",
+    "image": "images/greenmarket.webp"
+  }
+]
