@@ -1,0 +1,96 @@
+:root {
+    --primary: #003366;
+    --secondary: #f5b700;
+    --background: #f4f4f4;
+    --text: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: var(--background);
+    color: var(--text);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: var(--primary);
+    color: white;
+    padding: 1rem;
+}
+
+.logo {
+    width: 80px;
+}
+
+nav {
+    background: var(--secondary);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    background: white;
+}
+
+main {
+    padding: 1rem;
+}
+
+.view-buttons {
+    margin-bottom: 1rem;
+}
+
+.view-buttons button {
+    padding: .75rem 1rem;
+    margin-right: .5rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 150px;
+    max-width: 100%;
+}
+
+.list {
+    display: block;
+}
+
+.list .card {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background: var(--primary);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}

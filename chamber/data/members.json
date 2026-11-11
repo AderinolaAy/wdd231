@@ -1,18 +1,60 @@
-[
-  {
-    "name": "Tech Solutions",
-    "address": "15 Main Street",
-    "phone": "(555) 123-4567",
-    "website": "https://techsolutions.com",
-    "membership": "Gold",
-    "image": "images/techsolutions.webp"
-  },
-  {
-    "name": "Green Market",
-    "address": "22 Market Road",
-    "phone": "(555) 987-6543",
-    "website": "https://greenmarket.com",
-    "membership": "Silver",
-    "image": "images/greenmarket.webp"
-  }
-]
+{
+  "members": [
+    {
+      "name": "Tech Solutions Ltd",
+      "address": "12 Central Business District, Abuja",
+      "phone": "+234 801 111 1111",
+      "website": "https://www.techsolutions.com",
+      "image": "business1.png",
+      "membership": 3
+    },
+    {
+      "name": "Prime Foods",
+      "address": "45 Wuse Zone 5",
+      "phone": "+234 801 222 2222",
+      "website": "https://www.primefoods.com",
+      "image": "business2.png",
+      "membership": 2
+    },
+    {
+      "name": "City Bank",
+      "address": "22 Garki District",
+      "phone": "+234 801 333 3333",
+      "website": "https://www.citybank.com",
+      "image": "business3.png",
+      "membership": 3
+    },
+    {
+      "name": "Green Farms",
+      "address": "18 Kubwa",
+      "phone": "+234 801 444 4444",
+      "website": "https://www.greenfarms.com",
+      "image": "business4.jpg",
+      "membership": 1
+    },
+    {
+      "name": "Metro Logistics",
+      "address": "5 Jabi District",
+      "phone": "+234 801 555 5555",
+      "website": "https://www.metrologistics.com",
+      "image": "business5.jpg",
+      "membership": 2
+    },
+    {
+      "name": "Bright Media",
+      "address": "90 Maitama",
+      "phone": "+234 801 666 6666",
+      "website": "https://www.brightmedia.com",
+      "image": "business6.png",
+      "membership": 3
+    },
+    {
+      "name": "Future Ventures",
+      "address": "35 Asokoro",
+      "phone": "+234 801 777 7777",
+      "website": "https://www.futureventures.com",
+      "image": "business7.png",
+      "membership": 1
+    }
+  ]
+}
