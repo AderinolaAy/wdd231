@@ -55,6 +55,14 @@
       "website": "https://www.futureventures.com",
       "image": "business7.png",
       "membership": 1
-    }
+    },
+    {
+  "name":"Tech Solutions",
+  "address":"Abuja CBD",
+  "phone":"+2348001112222",
+  "website":"https://example.com",
+  "image":"business1.png",
+  "membership":3
+   }
   ]
 }

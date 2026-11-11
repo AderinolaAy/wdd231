@@ -93,4 +93,119 @@ footer {
     color: white;
     padding: 1rem;
     text-align: center;
+
+:root{
+    --primary:#003366;
+    --secondary:#f7b801;
+    --light:#f5f5f5;
+    --dark:#222;
+}
+
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:var(--light);
+    color:var(--dark);
+}
+
+header{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+    background:var(--primary);
+    color:white;
+    padding:1rem;
+}
+
+.logo{
+    width:80px;
+}
+
+nav{
+    background:var(--secondary);
+}
+
+nav ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+nav li{
+    border-bottom:1px solid #ddd;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+    display:block;
+    padding:1rem;
+}
+
+.active{
+    font-weight:bold;
+}
+
+.hero{
+    position:relative;
+}
+
+.hero-image{
+    width:100%;
+    display:block;
+}
+
+.cta-btn{
+    position:absolute;
+    bottom:2rem;
+    right:2rem;
+    padding:1rem;
+    background:var(--secondary);
+    color:black;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+.card{
+    background:white;
+    margin:1rem;
+    padding:1rem;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+#forecast{
+    display:flex;
+    flex-direction:column;
+    gap:.5rem;
+}
+
+.spotlights{
+    padding:1rem;
+}
+
+#spotlight-container{
+    display:grid;
+    gap:1rem;
+}
+
+.spotlight-card{
+    background:white;
+    padding:1rem;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 8px rgba(0,0,0,.15);
+}
+
+.spotlight-card img{
+    width:120px;
+}
+
+footer{
+    background:var(--primary);
+    color:white;
+    text-align:center;
+    padding:1rem;
+}
 }
