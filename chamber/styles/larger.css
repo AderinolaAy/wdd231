@@ -23,3 +23,36 @@
         align-items: center;
     }
 }
+
+@media screen and (min-width: 768px){
+
+    #menu-btn{
+        display:none;
+    }
+
+    nav{
+        display:block !important;
+    }
+
+    nav ul{
+        display:flex;
+        justify-content:center;
+    }
+
+    .home-grid{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .spotlight-container{
+        grid-template-columns:
+        repeat(auto-fit,minmax(300px,1fr));
+    }
+
+    footer{
+        display:grid;
+        grid-template-columns:
+        repeat(3,1fr);
+        align-items:center;
+    }
+
+}

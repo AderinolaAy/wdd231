@@ -120,3 +120,147 @@ footer a {
     color: white;
     text-decoration: none;
 }
+
+:root{
+    --primary:#003566;
+    --secondary:#ffc300;
+    --light:#ffffff;
+    --dark:#333;
+}
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+}
+
+header{
+    background:var(--primary);
+    color:white;
+}
+
+.header-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:1rem;
+}
+
+.logo{
+    width:70px;
+}
+
+#menu-btn{
+    font-size:2rem;
+    border:none;
+    background:none;
+    color:white;
+}
+
+nav{
+    display:none;
+}
+
+nav.open{
+    display:block;
+}
+
+nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+nav li a{
+    display:block;
+    padding:1rem;
+    text-decoration:none;
+    color:white;
+}
+
+nav li a:hover{
+    background:var(--secondary);
+    color:black;
+}
+
+.hero{
+    position:relative;
+}
+
+.hero img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+.hero-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    color:white;
+}
+
+.cta-btn{
+    background:var(--secondary);
+    color:black;
+    text-decoration:none;
+    padding:1rem 2rem;
+    font-weight:bold;
+    border-radius:5px;
+}
+
+main{
+    max-width:1200px;
+    margin:auto;
+}
+
+.home-grid{
+    display:grid;
+    gap:1rem;
+    padding:1rem;
+}
+
+.card{
+    background:#f5f5f5;
+    padding:1rem;
+    border-radius:10px;
+}
+
+.weather img{
+    width:60px;
+}
+
+.spotlight-title{
+    text-align:center;
+}
+
+.spotlight-container{
+    display:grid;
+    gap:1rem;
+    padding:1rem;
+}
+
+.spotlight-card{
+    text-align:center;
+    padding:1rem;
+    border:1px solid #ddd;
+    border-radius:10px;
+    background:white;
+}
+
+.spotlight-card img{
+    width:120px;
+    height:auto;
+}
+
+footer{
+    background:var(--primary);
+    color:white;
+    padding:1rem;
+    text-align:center;
+}
+
+footer a{
+    color:white;
+}

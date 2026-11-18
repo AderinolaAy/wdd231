@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ibadan Chamber of Commerce</title>
+
+    <meta name="description"
+        content="Official website of the Ibadan Chamber of Commerce supporting business growth and community development.">
+
+    <meta name="author" content="Aderinola Ayoyemi">
+
+    <!-- Facebook Open Graph -->
+    <meta property="og:title" content="Ibadan Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/chamber_logo.jpg">
+    <meta property="og:url"
+        content="https://AderinolaAy.github.io/wdd231/chamber/">
+    <meta property="og:description"
+        content="Connecting businesses and promoting economic growth in Ibadan.">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="/chamber/styles/larger.css">
+    <link rel="stylesheet" href="/chamber/styles/small.css">
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="header-top">
+
+        <img src="images/chamber_logo.jpg" alt="Chamber Logo" class="logo">
+
+        <div>
+            <h1>Ibadan Chamber of Commerce</h1>
+            <p>Supporting Business Growth</p>
+        </div>
+
+        <button id="menu-btn">☰</button>
+
+    </div>
+
+    <nav id="navigation">
+
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="join.html">Join</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+
+<main>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+
+        <img src="/chamber/images/chamber_logo.jpg"
+            alt="Ibadan city business district">
+
+        <div class="hero-content">
+
+            <h2>Building a Stronger Business Community</h2>
+
+            <a href="join.html" class="cta-btn">
+                Join the Chamber
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- HOME GRID -->
+
+    <div class="home-grid">
+
+        <!-- EVENTS -->
+
+        <section class="card">
+
+            <h2>Current Events</h2>
+
+            <p><strong>Business Networking Summit</strong></p>
+
+            <p>
+                Connect with entrepreneurs, investors,
+                and local businesses on December 12.
+            </p>
+
+            <hr>
+
+            <p><strong>SME Growth Workshop</strong></p>
+
+            <p>
+                Learn practical strategies to grow
+                your business and increase revenue.
+            </p>
+
+        </section>
+
+        <!-- WEATHER -->
+
+        <section class="card weather">
+
+            <h2>Current Weather</h2>
+
+            <div id="weather">
+
+                <p>Loading weather...</p>
+
+            </div>
+
+            <h3>3-Day Forecast</h3>
+
+            <div id="forecast"></div>
+
+        </section>
+
+    </div>
+
+    <!-- SPOTLIGHTS -->
+
+    <section>
+
+        <h2 class="spotlight-title">
+            Business Spotlights
+        </h2>
+
+        <div id="spotlights"
+            class="spotlight-container"></div>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <div>
+        <h3>Ibadan Chamber of Commerce</h3>
+
+        <p>123 Ring Road, Ibadan</p>
+        <p>info@ibadanchamber.org</p>
+        <p>+234 800 000 0000</p>
+    </div>
+
+    <div>
+
+        <a href="#">Facebook</a> |
+        <a href="#">LinkedIn</a> |
+        <a href="#">Instagram</a>
+
+    </div>
+
+    <div>
+
+        <p>
+            © <span id="year"></span>
+            Aderinola Ayoyemi | WDD 231
+        </p>
+
+        <p id="modified"></p>
+
+    </div>
+
+</footer>
+
+<script src="/chamber/scripts/home.js"></script>
+
+</body>
+</html>

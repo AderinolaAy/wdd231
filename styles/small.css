@@ -22,7 +22,7 @@ body {
 
 header {
     background: var(--primary-color);
-    color: white;
+    color: yellow;
 
     display: flex;
     justify-content: space-between;
