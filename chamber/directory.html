@@ -4,86 +4,89 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Abuja Chamber of Commerce Directory</title>
+<title>Ibadan Chamber of Commerce Directory</title>
 
-<meta name="description" content="Business directory for the Abuja Chamber of Commerce featuring local companies and organizations.">
+<meta name="description"
+content="Official business directory for the Ibadan Chamber of Commerce. Find local businesses, services, and organizations.">
 
-<meta name="author" content="Aderinola Ayoyemi">
+<meta name="author" content="Aderinola Aderinola">
 
-<link rel="icon" href="/chamber/images/favicon.ico">
+<!-- Open Graph -->
+<meta property="og:title" content="Ibadan Chamber of Commerce">
+<meta property="og:description" content="Business directory of chamber members.">
+<meta property="og:image" content="images/chamber_logo.jpg">
+<meta property="og:url" content="https://AderinolaAy.github.io/wdd231/chamber/directory.html">
 
-<!-- Open Graph Meta Tags -->
-<meta property="og:title" content="Abuja Chamber of Commerce">
-<meta property="og:description" content="Supporting business growth and community development in Abuja.">
-<meta property="og:image" content="https://yourdomain.com/chamber/images/logo.webp">
-<meta property="og:url" content="https://yourdomain.com/chamber/directory.html">
+<link rel="icon" href="favicon.ico">
 
-<link rel="stylesheet" href="/chamber/styles/small.css">
 <link rel="stylesheet" href="/chamber/styles/larger.css">
+<link rel="stylesheet" href="/chamber/styles/small.css">
 </head>
 
 <body>
 
 <header>
-    <img src="/chamber/images/chamber_logo.jpg" alt="Chamber Logo" class="logo">
+    <div class="header-container">
+        <img src="images/chamber_logo.jpg" alt="Chamber Logo" class="logo">
 
-    <div>
-        <h1>Abuja Chamber of Commerce</h1>
-        <p>Business Directory</p>
+        <div>
+            <h1>Ibadan Chamber of Commerce</h1>
+            <p>Supporting Local Businesses</p>
+        </div>
+
+        <button id="menuBtn">&#9776;</button>
     </div>
-</header>
 
-<nav>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Discover</a></li>
-        <li><a href="directory.html" class="active">Directory</a></li>
-        <li><a href="#">Join</a></li>
-    </ul>
-</nav>
+    <nav id="navMenu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="directory.html" class="active">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </nav>
+</header>
 
 <main>
 
     <h2>Member Directory</h2>
 
     <div class="view-buttons">
-        <button id="gridBtn">Grid View</button>
-        <button id="listBtn">List View</button>
+        <button id="grid">Grid View</button>
+        <button id="list">List View</button>
     </div>
 
-    <section id="members" class="grid"></section>
+    <section id="members" class="grid-view"></section>
 
 </main>
 
 <footer>
 
-    <div>
-        <h3>Abuja Chamber of Commerce</h3>
-        <p>123 Business Avenue</p>
-        <p>Abuja, Nigeria</p>
-        <p>info@abujachamber.org</p>
-        <p>+234 800 111 2222</p>
+    <div class="footer-contact">
+        <h3>Ibadan Chamber of Commerce</h3>
+        <p>123 Ring Road, Ibadan</p>
+        <p>info@ibadanchamber.org</p>
+        <p>+234 800 000 0000</p>
     </div>
 
-    <div>
+    <div class="footer-social">
+        <a href="#">Facebook</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">Instagram</a>
+    </div>
+
+    <div class="footer-info">
         <p>
-            &copy; <span id="currentyear"></span>
-            Abuja Chamber of Commerce
+            &copy; <span id="currentYear"></span>
+            Aderinola Ayoyemi | WDD231
         </p>
 
-        <p>
-            Aderinola Ayoyemi | WDD 231
-        </p>
-
-        <p>
-            Last Modified:
-            <span id="lastModified"></span>
-        </p>
+        <p id="lastModified"></p>
     </div>
 
 </footer>
 
-<script src="/chamber/scripts/directory.js"></script>
+<script src="scripts/directory.js"></script>
 
 </body>
 </html>

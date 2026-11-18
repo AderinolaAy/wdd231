@@ -1,68 +1,67 @@
 {
   "members": [
     {
-      "name": "Tech Solutions Ltd",
-      "address": "12 Central Business District, Abuja",
-      "phone": "+234 801 111 1111",
-      "website": "https://www.techsolutions.com",
-      "image": "business1.png",
-      "membership": 3
+      "name": "Royal Foods",
+      "address": "Bodija, Ibadan",
+      "phone": "+234800111111",
+      "website": "https://royalfoods.com",
+      "image": "images/business1.png",
+      "membership": 3,
+      "description": "Restaurant and Catering Services"
     },
     {
-      "name": "Prime Foods",
-      "address": "45 Wuse Zone 5",
-      "phone": "+234 801 222 2222",
-      "website": "https://www.primefoods.com",
-      "image": "business2.png",
-      "membership": 2
-    },
-    {
-      "name": "City Bank",
-      "address": "22 Garki District",
-      "phone": "+234 801 333 3333",
-      "website": "https://www.citybank.com",
-      "image": "business3.png",
-      "membership": 3
+      "name": "TechNova Solutions",
+      "address": "Challenge, Ibadan",
+      "phone": "+234800222222",
+      "website": "https://technova.com",
+      "image": "images/business2.png",
+      "membership": 2,
+      "description": "Technology Consulting"
     },
     {
       "name": "Green Farms",
-      "address": "18 Kubwa",
-      "phone": "+234 801 444 4444",
-      "website": "https://www.greenfarms.com",
-      "image": "business4.jpg",
-      "membership": 1
+      "address": "Iwo Road, Ibadan",
+      "phone": "+234800333333",
+      "website": "https://greenfarms.com",
+      "image": "images/business3.png",
+      "membership": 1,
+      "description": "Agricultural Services"
     },
     {
-      "name": "Metro Logistics",
-      "address": "5 Jabi District",
-      "phone": "+234 801 555 5555",
-      "website": "https://www.metrologistics.com",
-      "image": "business5.jpg",
-      "membership": 2
+      "name": "Sunrise Hotel",
+      "address": "Dugbe, Ibadan",
+      "phone": "+234800444444",
+      "website": "https://sunrisehotel.com",
+      "image": "images/business4.jpg",
+      "membership": 3,
+      "description": "Hospitality and Tourism"
     },
     {
-      "name": "Bright Media",
-      "address": "90 Maitama",
-      "phone": "+234 801 666 6666",
-      "website": "https://www.brightmedia.com",
-      "image": "business6.png",
-      "membership": 3
+      "name": "Peak Logistics",
+      "address": "Mokola, Ibadan",
+      "phone": "+234800555555",
+      "website": "https://peaklogistics.com",
+      "image": "images/business5.jpg",
+      "membership": 2,
+      "description": "Transportation and Logistics"
     },
     {
-      "name": "Future Ventures",
-      "address": "35 Asokoro",
-      "phone": "+234 801 777 7777",
-      "website": "https://www.futureventures.com",
-      "image": "business7.png",
-      "membership": 1
+      "name": "BlueSky Pharmacy",
+      "address": "Jericho, Ibadan",
+      "phone": "+234800666666",
+      "website": "https://blueskypharmacy.com",
+      "image": "images/business6.png",
+      "membership": 1,
+      "description": "Healthcare Services"
     },
     {
-  "name":"Tech Solutions",
-  "address":"Abuja CBD",
-  "phone":"+2348001112222",
-  "website":"https://example.com",
-  "image":"business1.png",
-  "membership":3
-   }
+      "name": "Apex Builders",
+      "address": "Ring Road, Ibadan",
+      "phone": "+234800777777",
+      "website": "https://apexbuilders.com",
+      "image": "images/business7.png",
+      "membership": 3,
+      "description": "Construction and Real Estate"
+    }
   ]
 }

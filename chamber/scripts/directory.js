@@ -1,10 +1,17 @@
 const membersContainer = document.querySelector("#members");
 
 async function getMembers() {
-    const response = await fetch("data/members.json");
-    const data = await response.json();
+    try {
 
-    displayMembers(data.members);
+        const response = await fetch("data/members.json");
+
+        const data = await response.json();
+
+        displayMembers(data.members);
+
+    } catch (error) {
+        console.error(error);
+    }
 }
 
 function displayMembers(members) {
@@ -12,14 +19,14 @@ function displayMembers(members) {
     members.forEach(member => {
 
         const card = document.createElement("section");
-        card.classList.add("card");
+        card.classList.add("member-card");
 
         card.innerHTML = `
-            <img src="images/${member.image}" alt="${member.name}">
+            <img src="${member.image}" alt="${member.name}">
             <h3>${member.name}</h3>
+            <p>${member.description}</p>
             <p>${member.address}</p>
             <p>${member.phone}</p>
-            <p>Membership Level: ${member.membership}</p>
             <a href="${member.website}" target="_blank">
                 Visit Website
             </a>
@@ -31,18 +38,25 @@ function displayMembers(members) {
 
 getMembers();
 
-document.querySelector("#gridBtn").addEventListener("click", () => {
-    membersContainer.classList.add("grid");
-    membersContainer.classList.remove("list");
+document.querySelector("#grid").addEventListener("click", () => {
+    membersContainer.classList.add("grid-view");
+    membersContainer.classList.remove("list-view");
 });
 
-document.querySelector("#listBtn").addEventListener("click", () => {
-    membersContainer.classList.add("list");
-    membersContainer.classList.remove("grid");
+document.querySelector("#list").addEventListener("click", () => {
+    membersContainer.classList.add("list-view");
+    membersContainer.classList.remove("grid-view");
 });
 
-document.querySelector("#currentyear").textContent =
-    new Date().getFullYear();
+const menuBtn = document.querySelector("#menuBtn");
+const navMenu = document.querySelector("#navMenu");
+
+menuBtn.addEventListener("click", () => {
+    navMenu.classList.toggle("open");
+});
+
+document.querySelector("#currentYear").textContent =
+new Date().getFullYear();
 
 document.querySelector("#lastModified").textContent =
-    document.lastModified;
+`Last Modified: ${document.lastModified}`;
