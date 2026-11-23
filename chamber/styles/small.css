@@ -174,7 +174,7 @@ nav li a{
     display:block;
     padding:1rem;
     text-decoration:none;
-    color:white;
+    color: black;
 }
 
 nav li a:hover{
@@ -263,4 +263,42 @@ footer{
 
 footer a{
     color:white;
+}
+
+#visit-message{
+    background:#ffc300;
+    padding:1rem;
+    margin-bottom:1rem;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+#discover-grid{
+
+    display:grid;
+
+    grid-template-areas:
+    "one"
+    "two"
+    "three"
+    "four"
+    "five"
+    "six"
+    "seven"
+    "eight";
+
+    gap:1rem;
+}
+
+.card{
+    border:1px solid #ddd;
+    padding:1rem;
+    border-radius:10px;
+    background:white;
+}
+
+.card img{
+    width:100%;
+    display:block;
+    border-radius:8px;
 }

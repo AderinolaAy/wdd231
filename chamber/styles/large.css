@@ -1,0 +1,50 @@
+@media (min-width:1025px){
+
+#discover-grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(4,1fr);
+
+grid-template-areas:
+
+"one one two three"
+"four five six six"
+"seven eight eight three";
+
+}
+
+.card1{grid-area:one;}
+.card2{grid-area:two;}
+.card3{grid-area:three;}
+.card4{grid-area:four;}
+.card5{grid-area:five;}
+.card6{grid-area:six;}
+.card7{grid-area:seven;}
+.card8{grid-area:eight;}
+
+}
+
+@media (min-width:641px){
+
+.card img{
+
+transition:
+transform .4s ease,
+box-shadow .4s ease,
+filter .4s ease;
+
+}
+
+.card img:hover{
+
+transform:scale(1.08);
+
+box-shadow:
+0 10px 20px rgba(0,0,0,.25);
+
+filter:saturate(120%);
+}
+
+}
